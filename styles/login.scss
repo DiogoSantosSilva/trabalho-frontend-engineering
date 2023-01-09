@@ -54,8 +54,23 @@
             border-radius: 12px;
             font-size: 16px;
             margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        
+        span{
+            .register{
+                text-decoration: none;
+                color: $primaryColor;
+            }
+        }
+        span{
+            .login{
+                text-decoration: none;
+                color: $primaryColor;
+            }
         }
     }
+
 
     @media screen and (min-width: $mediaQueryDesktop) {
         display: flex;
